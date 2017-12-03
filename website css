@@ -1,0 +1,115 @@
+*{padding:0;margin:0;}
+h1{
+    font-family: "Raleway", Arial, sans-serif;
+    -webkit-transform:translateZ(-0.5px) scale(1.5);
+    transform: translateZ(-0.5px) scale(1.5);
+    position: fixed;
+    top: 1.5em;
+    font-size: 8em;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+ul{
+  font-family: "Raleway", Arial, sans-serif;
+    position: fixed;
+    top: 1.5em;
+    font-size: 25px;
+    width: 100%;
+    text-align: right;
+    color: black;  
+    z-index: 1; 
+    list-style-type:none;
+}
+li{
+    float: right;
+    border-radius: 25px solid white;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none; 
+    
+}
+body {
+    background-color: white;
+    /*background-image: url(cloud.jpg);*/
+    height: 100vh;
+    margin: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+    
+}
+h2{
+    font-family: "Raleway", Arial, sans-serif;
+    color: black;
+    font-size: 50px;
+    position: fixed;
+    top: 18em;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.button {
+    border-radius: 8px;
+    font-family: "Raleway", Arial, sans-serif;
+    background-color: none;
+    border: none;
+    color: black;
+    padding: 10 px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 18px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+a:hover{
+    background-color: none;
+}
+img{
+    width: 100%;
+}
+html{
+    overflow: hidden;
+}
+.parallax-group{
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.back{
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+    position: relative;
+    top: calc(((100vh - 66.666666666vw) / 4)* -2)
+}
+.front{
+    background-color:white;
+    padding: 30em 1em;
+    position: relative;
+    z-index: 2;
+}
+.slide2{
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.back2{
+    
+    position: relative;
+    bottom: calc(((100vh - 66.666666666vw) / 4)* -2)
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+}
+.front2{
+    background-color: white;
+    padding: 30em 1em;
+    position: relative;
+    z-index: 2;
+    
+}
